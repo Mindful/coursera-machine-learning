@@ -1,0 +1,19 @@
+Supervised learning:
+Right answers given, have to produce more "right answers"
+
+Unsupervised learning:
+No directions or pre-existing classifications; you are searching for structure in data or trying to find categories
+ - regression
+ - classification
+
+
+
+Classification problem:
+Discrete value output (0 or 1, or more possible values, but the important point is picking a category)
+ - clustering
+
+Regression:
+Contiguous values, predicting a value
+
+
+When implementing gradient descent, it's very important to update all terms (for our purposes, theta0 and theta1) simultaneously. Which is to say in programming terms, compute both values first, and then do the assignments after both computations.
